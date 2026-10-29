@@ -4,7 +4,7 @@ Submission by **Luceo Studio** (Dennis Wang). Agent id `luceo-lantern`, agent na
 
 This repository holds exactly what the Agent Gauntlet starter kit's packager produces:
 
-- `luceo-lantern-submission.tar.gz` — the packaged agent (31 files, 396 KB): the kit's `arena_clients/` contract modules, `my_strategy.py`, `model_selector.py`, `base_strategy.py`, the `lantern/` runtime, the hash-locked `requirements.lock`, and `submission.json` (entrypoint `python lantern/agent.py`).
+- `luceo-lantern-submission.tar.gz` — the packaged agent (31 files, 405 KB): the kit's `arena_clients/` contract modules, `my_strategy.py`, `model_selector.py`, `base_strategy.py`, the `lantern/` runtime, the hash-locked `requirements.lock`, and `submission.json` (entrypoint `python lantern/agent.py`).
 - `luceo-lantern-submission.tar.gz.sha256` — its SHA-256 checksum.
 
 Verify with `shasum -a 256 -c luceo-lantern-submission.tar.gz.sha256`. The archive unpacks to `gauntlet-submission/` with `submission.json` at its root; `python -m arena_clients.package --check` passes on it.
